@@ -1,27 +1,7 @@
 <?xml version="1.0" ?>
 <xpd>
-    <components>
-        <component description = "A simple demo of using the xCORE-USB ADC" type = "demoCode" scope = "Example" path = "app_adc_demo_u" local = "false" id = "app_adc_demo_u" name = "xCORE-USB ADC Demo">
-            <componentDependency>module_logging</componentDependency>
-            <componentDependency>module_usb_tile_support</componentDependency>
-            <componentDependency>module_xassert</componentDependency>
-            <keyword>adc</keyword>
-        </component>
-        <component name = "xCORE-USB Support Library" type = "component" buildresults_path = "module_usb_tile_support/.module_usb_tile_support.buildinfo" scope = "General Use" path = "module_usb_tile_support" metainfo_path = "module_usb_tile_support/module_usb_tile_support.metainfo" local = "false" id = "module_usb_tile_support" description = "Library providing support for xCORE-USB (U-Series) devices.">
-            <componentDependency>module_logging</componentDependency>
-            <componentDependency>module_xassert</componentDependency>
-            <keyword>adc peripherals</keyword>
-        </component>
-    </components>
-    <dependency repo = "sc_util">
-        <githash>d0531d7c68ab67334582c324828e36d617baf8b3</githash>
-        <uri>git://github.com/xcore/sc_util</uri>
-        <version>1.0.3rc0</version>
-    </dependency>
-    <description>Collection of functions to support peripheral tiles.</description>
-    <docdir>app_adc_demo_u/doc_quickstart</docdir>
-    <docdir>module_usb_tile_support/doc</docdir>
-    <location>origin</location>
+    <description>No longer in use</description>
+    <location>git://github.com/xcore/sc_periph</location>
     <name>sc_periph</name>
     <maintainer>pthedinger</maintainer>
     <partnumber>XM-002789-DH</partnumber>
